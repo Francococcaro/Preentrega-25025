@@ -8,11 +8,12 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-    static ArrayList<Producto> productos = new ArrayList<>();
-    static pedidoService pedidoService = new pedidoService();
-    static Scanner entrada = new Scanner(System.in);
-
     public static void main(String[] args) {
+    ArrayList<Producto> productos = new ArrayList<>();
+    pedidoService pedidoService = new pedidoService();
+    Scanner entrada = new Scanner(System.in);
+
+
         int opcionUsuario;
 
         do {
