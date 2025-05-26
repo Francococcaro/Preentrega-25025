@@ -12,9 +12,7 @@ public class Main {
     ArrayList<Producto> productos = new ArrayList<>();
     pedidoService pedidoService = new pedidoService();
     Scanner entrada = new Scanner(System.in);
-
-
-        int opcionUsuario;
+    int opcionUsuario;
 
         do {
             System.out.println("############################");
